@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.curso{
+    background-color: rgb(186, 151, 221);
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.e1, .e2{
+    background-color: rgb(151, 221, 174);
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#extra4, #extra5{
+    background-color: rgb(221, 151, 191);
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.selecionar{
+    background-color: rgb(126, 17, 42);
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}

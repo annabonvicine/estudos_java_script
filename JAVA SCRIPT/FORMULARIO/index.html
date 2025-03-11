@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Formulário -->
+        <div class="formulario">
+            <h2>Preencha os Dados</h2>
+            <input type="text" class="campo-input" placeholder="Nome">
+            <input type="email" class="campo-input" placeholder="E-mail">
+            <input type="tel" class="campo-input" placeholder="Telefone">
+            <input type="number" class="campo-input" placeholder="Idade">
+            <input type="text" class="campo-input" placeholder="Estado Civil">
+            <input type="text" class="campo-input" placeholder="Profissão">
+            <input type="text" class="campo-input" placeholder="Logradouro">
+            <input type="text" class="campo-input" placeholder="Bairro">
+            <input type="number" class="campo-input" placeholder="Número">
+            <input type="text" class="campo-input" placeholder="Cidade">
+            <input type="text" class="campo-input" placeholder="Estado">
+
+            <button onclick="mostrarDados()">Enviar</button>
+
+            <script src="script.js"></script>
+        </div>
+
+        <!-- Exibição de Dados -->
+        <div class="resultado" id="resultado">
+            <h2>Dados:</h2>
+            <p>📌 <strong>Nome:</strong> <span id="nomeExibido"></span></p>
+            <p>📧 <strong>E-mail:</strong> <span id="emailExibido"></span></p>
+            <p>📞 <strong>Telefone:</strong> <span id="telefoneExibido"></span></p> <br> <br>
+            <h2>Dados Pessoais:</h2>
+            <p>🕰️ <strong>Idade:</strong> <span id="idadeExibido"></span></p>
+            <p>💍 <strong>Estado Civil:</strong> <span id="estadocivilExibido"></span></p>
+            <p>💼 <strong>Profissão:</strong> <span id="profissaoExibido"></span></p> <br><br>
+            <h2>Endereço:</h2>
+            <p>🏠 <strong>Logradouro:</strong> <span id="logradouroExibido"></span></p>
+            <p>🧭 <strong>Bairro:</strong> <span id="bairroExibido"></span></p>
+            <p>🔢 <strong>Número:</strong> <span id="numeroExibido"></span></p>
+            <p>🗽 <strong>Cidade:</strong> <span id="cidadeExibido"></span></p>
+            <p>🌍 <strong>Estado:</strong> <span id="estadoExibido"></span></p>
+
+        </div>
+        <script src="script.js"></script>
+
+    </div>
+    
+</body>
+</html>
