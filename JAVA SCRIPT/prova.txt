@@ -1,0 +1,16 @@
+Javascript
+
+webstorage
+queryselector
+queryselectorAll
+addEventListener
+getElementByid
+getElementsbyclassname
+getElementsbyTagName
+createElement
+Drag and Drop
+
+
+CSS
+Responsividade
+@media

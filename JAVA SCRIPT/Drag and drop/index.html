@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="kanban">
+        <!-- COLUNA 1 -->
+        <div class="kanban-column" data-id="1">
+            <div class="kanban-title">
+                <h2>Backlog</h2>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge low">
+                        <span>Média prioridade</span>
+                    </div>
+                    <p class="card-title">Revisar a documentação</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- COLUNA 2 -->
+        <div class="kanban-column" data-id="2">
+            <div class="kanban-title">
+                <h2>A fazer</h2>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge medium">
+                        <span>Média prioridade</span>
+                    </div>
+                    <p class="card-title">Revisar a documentação</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- COLUNA 3 -->
+        <div class="kanban-column" data-id="3">
+            <div class="kanban-title">
+                <h2>Fazendo</h2>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>Média prioridade</span>
+                    </div>
+                    <p class="card-title">Revisar a documentação</p>
+                </div>
+            </div>
+        </div>
+
+            <!-- COLUNA 4 -->
+            <div class="kanban-column" data-id="4">
+                <div class="kanban-title">
+                    <h2>Concluido</h2>
+                </div>
+
+                <div class="kanban-cards">
+                    <div class="kanban-card" draggable="true">
+                        <div class="badge high">
+                            <span>Média prioridade</span>
+                        </div>
+                        <p class="card-title">Revisar a documentação</p>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

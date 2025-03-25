@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "Carlos Silva",
+        "idade": 17,
+        "curso": "Desenvolvimento de Sistemas"
+    },
+
+    {
+        "nome": "Augusto Pires",
+        "idade": 18,
+        "curso": "Multimídia"
+    }
+
+]
